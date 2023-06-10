@@ -1,0 +1,65 @@
+*{
+    padding : 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    position: relative;
+}
+
+.wrap{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.hacked{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-top: 20%;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+p .red{
+    color: red;
+}
+
+a .purpe{
+    color: red;
+    text-decoration: none;
+}
+
+@media screen and (max-width:991.98px) {
+    .wrap{
+        font-size: 80%;
+        width: 90%;
+    }
+}
